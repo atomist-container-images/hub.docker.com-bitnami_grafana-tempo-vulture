@@ -1,12 +1,15 @@
-# Tags: latest, 1.3.2-debian-10-r34, 1.3.2, 1-debian-10, 1
+# Tags: latest, 1.3.2-debian-10-r35, 1.3.2, 1-debian-10, 1
 FROM bitnami/grafana-tempo-vulture:latest
-FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r34
+FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r35
 FROM bitnami/grafana-tempo-vulture:1.3.2
 FROM bitnami/grafana-tempo-vulture:1-debian-10
 FROM bitnami/grafana-tempo-vulture:1
 
 # Tags: _
 FROM bitnami/grafana-tempo-vulture:_
+
+# Tags: 1.3.2-debian-10-r34
+FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r34
 
 # Tags: 1.3.2-debian-10-r33
 FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r33
@@ -91,6 +94,3 @@ FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r7
 
 # Tags: 1.3.2-debian-10-r6
 FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r6
-
-# Tags: 1.3.2-debian-10-r5
-FROM bitnami/grafana-tempo-vulture:1.3.2-debian-10-r5
